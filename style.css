@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #D7D7D7;
+}
+#nav-bar{
+    background-color: #0B0B0B;
+    /* height: 66px; */
+    text-align: right;
+}
+
+#nav-bar a{
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 18px 30px;
+    
+    display: inline-block;
+}
+
+#nav-bar button{
+    background-color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+    color: #000000;
+    padding: 5px 8px;
+    margin-right: 30px;
+}
+#banner{
+    height: 100vh;
+     background: linear-gradient(105deg, #FFFFFF 50%, #000000 50%);
+}
