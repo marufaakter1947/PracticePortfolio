@@ -54,6 +54,7 @@ font-size: 17px;
 #banner{
     /* height: 100vh; */
      background: linear-gradient(105deg, #FFFFFF 50%, #000000 50%);
+     margin-bottom: 60px;
 }
 #logo-img{
     width: 40px;
@@ -63,8 +64,9 @@ font-size: 17px;
 }
 .nav2-item{
     display: flex;
-    /* justify-content:space-between; */
-    gap: 800px;
+    justify-content:space-between;
+    /* gap: 800x; */
+    width: 87%;
 }
 .banner-content h2{
     color: #000000;
@@ -133,4 +135,57 @@ color: #909090;
 }
 .scroll-p:hover,.scroll:hover,i:hover{
     color: blueviolet;
+}
+header{
+text-align:center ;
+font-size: 32px;
+font-weight: bold;
+margin-bottom: 40px;
+}
+
+.experience h1 span{
+    font-size: 80px;
+    font-weight: bold;
+    margin-top: 80px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+.experience h1{
+    font-size: 30px;
+    font-weight: bold;
+    /* margin-bottom: 20px; */
+}
+
+.card1{
+    width: 300px;
+    background-color:#FFFFFF ;
+    text-align: center;
+    padding: 30px 20px ;
+    border-radius: 10px;
+
+}
+.card1 i{
+    font-size: 40px;
+    margin-bottom: 10px;
+    
+}
+.card1 p{
+    font-size: 14px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #909090;
+}
+.card{
+    display: flex;
+gap:20px;
+}
+.about-container{
+    width: 87%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.about-content p{
+    font-size: 16px;
+    margin-bottom: 20px;
 }
