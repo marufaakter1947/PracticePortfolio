@@ -119,3 +119,18 @@ text-align: center;
 
 
 }
+.scroll{
+    text-align: center ;
+    margin-left: 300px;
+    /* font-size: 25px; */
+
+}
+.scroll-p{
+    font-size: 18px;
+    font-weight: bolder;
+    display: inline;
+color: #909090;
+}
+.scroll-p:hover,.scroll:hover,i:hover{
+    color: blueviolet;
+}
